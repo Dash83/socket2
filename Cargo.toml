@@ -1,0 +1,12 @@
+[package]
+name = "socket2"
+version = "0.1.0"
+authors = ["dash83 <caballeromarco@gmail.com>"]
+# default-features = false # do not include the default features, and optionally
+#                          # cherry-pick individual features
+
+# [dependencies.socket2]
+# version = "0.3.7"
+# features = ["unix"]
+[dependencies]
+socket2 = {version = "0.3.19", features = ["unix"]}
